@@ -1,0 +1,15 @@
+{
+  "display_name": "millerArrayDictionaryKeys",
+  "metadata": {
+    "language": "python",
+    "description": "Print the miller keys() of a miller dictionary.",
+    "tags": [
+    "pymol","millerArrayDictionaryKeys","miller array","print dictionary keys"
+    ],
+    "code": [
+      "miller_arrays_dict.keys()",
+      "$0"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

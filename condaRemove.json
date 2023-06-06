@@ -1,0 +1,14 @@
+{
+  "display_name": "condaRemove",
+  "metadata": {
+    "language": "python",
+    "description": "The conda commands to remove cctbx37 env.",
+    "tags": [
+    "pymol","condaRemove","conda","remove env"
+    ],
+    "code": [
+      "conda remove --name cctbx37"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

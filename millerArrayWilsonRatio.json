@@ -1,0 +1,15 @@
+{
+  "display_name": "millerArrayWilsonRatio",
+  "metadata": {
+    "language": "python",
+    "description": "Show wilson ratio of miller array for a specified Miller array. ",
+    "tags": [
+    "pymol","millerArrayWilsonRatio","miller array","wilson ratio"
+    ],
+    "code": [
+      "miller_arrays[0].wilson_ratio()",
+      "$0"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

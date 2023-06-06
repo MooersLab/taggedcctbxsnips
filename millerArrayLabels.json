@@ -1,0 +1,15 @@
+{
+  "display_name": "millerArrayLabels",
+  "metadata": {
+    "language": "python",
+    "description": "Print column labels in a Miller array.",
+    "tags": [
+    "pymol","millerArrayLabels","miller array","labels"
+    ],
+    "code": [
+      "[print('Miller Array %s: %s' % (i, miller_array.info().labels)) for i, miller_array in list(enumerate(miller_arrays))[:2]]",
+      "$0"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

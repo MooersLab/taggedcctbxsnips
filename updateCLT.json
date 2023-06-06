@@ -1,0 +1,17 @@
+{
+  "display_name": "updateCLT",
+  "metadata": {
+    "language": "python",
+    "description": "Update the command line tools for Xcode on Mac OS X. ",
+    "tags": [
+    "pymol","updateCLT","command line tools"
+    ],
+    "code": [
+      "sudo touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress",
+      "softwareupdate -l",
+      "# Update command line tools via software update.",
+      "sudo rm /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

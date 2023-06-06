@@ -1,0 +1,15 @@
+{
+  "display_name": "millerArrayCountBijvoetPairs",
+  "metadata": {
+    "language": "python",
+    "description": "Show number of bijvoet pairs for a specified Miller array.",
+    "tags": [
+    "pymol","millerArrayCountBijvoetPairs","miller array","anomalous signal"
+    ],
+    "code": [
+      "miller_arrays[0].n_bijvoet_pairs()",
+      "$0"
+    ]
+  },
+  "schema_name": "code-snippet"
+}

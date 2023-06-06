@@ -1,0 +1,17 @@
+{
+  "display_name": "fetchPDB",
+  "metadata": {
+    "language": "python",
+    "description": "Fetch pdb file from RCSB in PDB format.",
+    "tags": [
+    "pymol","fetchPDB","iobtbx","fetch mtz"
+    ],
+    "code": [
+      "from iotbx.pdb.fetch import get_pdb",
+      "import sys",
+      "get_pdb(id='3nd4',data_type='pdb', mirror='rcsb', format='pdb', log=sys.stdout)",
+      "$0"
+    ]
+  },
+  "schema_name": "code-snippet"
+}
