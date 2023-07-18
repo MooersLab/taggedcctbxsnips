@@ -4,11 +4,10 @@
     "language": "python",
     "description": "Print five rows of the Iobs for a specified Miller array. ",
     "tags": [
-    "pymol","millerArrayPrintSelectRows","miller array","anomalous signal"
+    "python","millerArrayPrintSelectRows","miller array","anomalous signal"
     ],
     "code": [
-      "list(Iobs[100:105])",
-      "$0"
+      "list(Iobs[100:105])"
     ]
   },
   "schema_name": "code-snippet"

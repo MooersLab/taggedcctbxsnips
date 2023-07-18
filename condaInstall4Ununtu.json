@@ -4,7 +4,7 @@
     "language": "python",
     "description": "Enter this snippet on the command line in an empty directory.",
     "tags": [
-    "pymol","condaInstall4Ununtu","conda","install"
+    "python","condaInstall4Ununtu","conda","install"
     ],
     "code": [
       "apt install nodejs git",
@@ -27,8 +27,7 @@
       "git clone https://github.com/MooersLab/juptyerlabpymolcctbxplus.git cctbx+",
       "git clone https://github.com/MooersLab/juptyerlabpymolpysnips.git pymol",
       "git clone https://github.com/MooersLab/juptyerlabpymolpysnipsplus.git pymol+",
-      "jupyter lab # or libtbx.python -m jupyter-lab",
-      "$0"
+      "jupyter lab # or libtbx.python -m jupyter-lab"
     ]
   },
   "schema_name": "code-snippet"

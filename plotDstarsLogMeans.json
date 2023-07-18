@@ -4,7 +4,7 @@
     "language": "python",
     "description": "Generate the list of dstars and logMeans as lists for plotting by matplotlib.",
     "tags": [
-    "pymol","plotDstarsLogMeans","iotbx","extra crystal symmetry"
+    "python","plotDstarsLogMeans","iotbx","extra crystal symmetry"
     ],
     "code": [
       """"Generate the list of dstars and logMeans as lists",
@@ -41,8 +41,7 @@
       "plt.yticks(fontsize=12)",
       "ax.grid(False)",
       "plt.savefig('3hz7iobsvsdstar.pdf',bbox_inches='tight')",
-      "plt.show()",
-      "$0"
+      "plt.show()"
     ]
   },
   "schema_name": "code-snippet"

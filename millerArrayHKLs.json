@@ -4,11 +4,10 @@
     "language": "python",
     "description": "Print all of the miller indices for a given Miller array.",
     "tags": [
-    "pymol","millerArrayHKLs","miller array","HKLs","print out"
+    "python","millerArrayHKLs","miller array","HKLs","print out"
     ],
     "code": [
-      "[print(hkl) for hkl in miller_arrays[0].indices()]",
-      "$0"
+      "[print(hkl) for hkl in miller_arrays[0].indices()]"
     ]
   },
   "schema_name": "code-snippet"

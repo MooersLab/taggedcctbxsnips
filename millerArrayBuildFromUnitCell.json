@@ -4,7 +4,7 @@
     "language": "python",
     "description": "Peter Zwart's code for generating the indices for unit cell of given symmetry and dimensions. ",
     "tags": [
-    "pymol","millerArrayBuildFromUnitCell","miller array","build unit cell"
+    "python","millerArrayBuildFromUnitCell","miller array","build unit cell"
     ],
     "code": [
       "from cctbx import miller",
@@ -18,8 +18,7 @@
       "    anomalous_flag=True,",
       "    d_min=0.4)",
       "",
-      "[print(hkl) for hkl in ms.indices()]",
-      "$0"
+      "[print(hkl) for hkl in ms.indices()]"
     ]
   },
   "schema_name": "code-snippet"

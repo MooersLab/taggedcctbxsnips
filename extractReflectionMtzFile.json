@@ -4,13 +4,12 @@
     "language": "python",
     "description": "Extract the reflections from a mtz file.",
     "tags": [
-    "pymol","extractReflectionMtzFile","iotbx","extra crystal symmetry"
+    "python","extractReflectionMtzFile","iotbx","extra crystal symmetry"
     ],
     "code": [
       "from iotbx import mtz",
       "mtz_obj = mtz.object(file_name='Users/blaine/manuscripts/RETkinaseLoxo/ret_blu.mtz')",
-      "mtz_obj.show_summary()",
-      "$0"
+      "mtz_obj.show_summary()"
     ]
   },
   "schema_name": "code-snippet"

@@ -4,11 +4,10 @@
     "language": "python",
     "description": "Print the crystal symmetry of each miller array.",
     "tags": [
-    "pymol","millerArraySymmetry","miller array","crystal symmetry"
+    "python","millerArraySymmetry","miller array","crystal symmetry"
     ],
     "code": [
-      "[print('Miller Array %s: %s' % (i, miller_array.info().crystal_symmetry_from_file)) for i, miller_array in list(enumerate(miller_arrays))]",
-      "$0"
+      "[print('Miller Array %s: %s' % (i, miller_array.info().crystal_symmetry_from_file)) for i, miller_array in list(enumerate(miller_arrays))]"
     ]
   },
   "schema_name": "code-snippet"

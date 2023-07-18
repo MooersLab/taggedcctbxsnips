@@ -4,7 +4,7 @@
     "language": "python",
     "description": "Miller arrays to plot of bin mean intensity over dstar",
     "tags": [
-    "pymol","plotIntensityResolutionBin","iotbx","extra crystal symmetry"
+    "python","plotIntensityResolutionBin","iotbx","extra crystal symmetry"
     ],
     "code": [
       "from iotbx.file_reader import any_file",
@@ -49,8 +49,7 @@
       "ax.set_xlabel(r'$d^*$ in $\AA$')",
       "ax.set_ylabel('Natural log of the intensities')",
       "ax.grid(False)",
-      "plt.savefig('iobsvsdstar.pdf')",
-      "$0"
+      "plt.savefig('iobsvsdstar.pdf')"
     ]
   },
   "schema_name": "code-snippet"

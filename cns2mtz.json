@@ -4,7 +4,7 @@
     "language": "python",
     "description": "Miller arrays to convert CNS reflection file into an mtz file",
     "tags": [
-    "pymol","cns2mtz","iotbx","extra crystal symmetry"
+    "python","cns2mtz","iotbx","extra crystal symmetry"
     ],
     "code": [
       "from iotbx import reflection_file_reader",
@@ -23,8 +23,7 @@
       "            miller_array=miller_array, ",
       "            column_root_label=miller_array.info().labels[0])",
       "mtz_object = mtz_dataset.mtz_object() ",
-      "mtz_object.show_summary()",
-      "$0"
+      "mtz_object.show_summary()"
     ]
   },
   "schema_name": "code-snippet"

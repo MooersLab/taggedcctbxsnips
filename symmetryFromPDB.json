@@ -4,12 +4,11 @@
     "language": "python",
     "description": "Print the symmetry from a PDB file.",
     "tags": [
-    "pymol","symmetryFromPDB","iobtbx","fetch mtz"
+    "python","symmetryFromPDB","iobtbx","fetch mtz"
     ],
     "code": [
       "import iotbx",
-      "iotbx.pdb.crystal_symmetry_from_pdb.extract_from('3nd4.pdb')",
-      "$0"
+      "iotbx.pdb.crystal_symmetry_from_pdb.extract_from('3nd4.pdb')"
     ]
   },
   "schema_name": "code-snippet"

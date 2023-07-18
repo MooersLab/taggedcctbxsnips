@@ -4,7 +4,7 @@
     "language": "python",
     "description": "Scatter plot of I(+) and (I(-). The presence of an anomalous signal is indicated by deviations from x=y.",
     "tags": [
-    "pymol","IpIm","iotbx","extra crystal symmetry"
+    "python","IpIm","iotbx","extra crystal symmetry"
     ],
     "code": [
       "%matplotlib inline",
@@ -47,8 +47,7 @@
       "ax.grid(False)",
       "",
       "# >>> change name of the figure file",
-      "plt.savefig('3hz7IpIm.pdf',bbox_inches='tight')",
-      "$0"
+      "plt.savefig('3hz7IpIm.pdf',bbox_inches='tight')"
     ]
   },
   "schema_name": "code-snippet"

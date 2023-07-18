@@ -4,11 +4,10 @@
     "language": "python",
     "description": "Enter this snippet on the command line in an empty directory.",
     "tags": [
-    "pymol","testCCTBX","conda","install"
+    "python","testCCTBX","conda","install"
     ],
     "code": [
-      "libtbx.run_tests_parallel module=libtbx module=cctbx nproc=6",
-      "$0"
+      "libtbx.run_tests_parallel module=libtbx module=cctbx nproc=6"
     ]
   },
   "schema_name": "code-snippet"

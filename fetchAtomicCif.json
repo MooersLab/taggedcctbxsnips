@@ -4,13 +4,12 @@
     "language": "python",
     "description": "Fetch  atomic coordinates from RCSB in mmCIF format.",
     "tags": [
-    "pymol","fetchAtomicCif","iobtbx","fetch mtz"
+    "python","fetchAtomicCif","iobtbx","fetch mtz"
     ],
     "code": [
       "from iotbx.pdb.fetch import get_pdb",
       "import sys",
-      "get_pdb(id='3nd4',data_type='xray', mirror='rcsb', format='cif', log=sys.stdout)",
-      "$0"
+      "get_pdb(id='3nd4',data_type='xray', mirror='rcsb', format='cif', log=sys.stdout)"
     ]
   },
   "schema_name": "code-snippet"

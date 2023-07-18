@@ -4,7 +4,7 @@
     "language": "python",
     "description": "Example of computing Fcalcs and then plotting them by resolution bin. This script uses miller arrays and binner.",
     "tags": [
-    "pymol","plotFcalcsrResolutionBin","iotbx","extra crystal symmetry"
+    "python","plotFcalcsrResolutionBin","iotbx","extra crystal symmetry"
     ],
     "code": [
       """"",

@@ -4,7 +4,7 @@
     "language": "python",
     "description": "Print the average B factor for all atoms.",
     "tags": [
-    "pymol","averageB","iobtbx","fetch mtz"
+    "python","averageB","iobtbx","fetch mtz"
     ],
     "code": [
       "from iotbx import pdb",
@@ -12,8 +12,7 @@
       "pdb_inp = pdb.input(file_name=pdb_name)",
       "atoms = pdb_inp.atoms()",
       "bfactors = atoms.extract_b()",
-      "bfactors.format_mean('%6.2f Ang.^2')",
-      "$0"
+      "bfactors.format_mean('%6.2f Ang.^2')"
     ]
   },
   "schema_name": "code-snippet"

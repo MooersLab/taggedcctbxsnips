@@ -4,7 +4,7 @@
     "language": "python",
     "description": "Compute all possible Miller indices.",
     "tags": [
-    "pymol","computeAllMillerIndices","iotbx","extra crystal symmetry"
+    "python","computeAllMillerIndices","iotbx","extra crystal symmetry"
     ],
     "code": [
       "from cctbx import miller",
@@ -25,8 +25,7 @@
       "    return indices",
       "    ",
       "uc=(5.4307,5.4307,5.4307,90.00,90.0,90.00)",
-      "dmin=1.0",
-      "$0"
+      "dmin=1.0"
     ]
   },
   "schema_name": "code-snippet"

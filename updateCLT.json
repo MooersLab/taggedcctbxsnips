@@ -4,7 +4,7 @@
     "language": "python",
     "description": "Update the command line tools for Xcode on Mac OS X. ",
     "tags": [
-    "pymol","updateCLT","command line tools"
+    "python","updateCLT","command line tools"
     ],
     "code": [
       "sudo touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress",

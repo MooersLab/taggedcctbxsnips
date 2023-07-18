@@ -4,7 +4,7 @@
     "language": "python",
     "description": "L-plot",
     "tags": [
-    "pymol","FsigmaFbyabsLindex","iotbx","extra crystal symmetry"
+    "python","FsigmaFbyabsLindex","iotbx","extra crystal symmetry"
     ],
     "code": [
       "import pandas as pd",
@@ -19,8 +19,7 @@
       "mtzdata['FovSigF'] = mtzdata.apply(lambda row: row['F'] / row['SIGF'], axis=1)",
       "mtzdata['absL'] = mtzdata.apply(lambda row: abs(row['L']), axis=1)",
       "FovSigFabsL = mtzdata.groupby([mtzdata.absL]).FovSigF.mean()",
-      "FovSigFabsL.to_csv('test2.csv')",
-      "$0"
+      "FovSigFabsL.to_csv('test2.csv')"
     ]
   },
   "schema_name": "code-snippet"

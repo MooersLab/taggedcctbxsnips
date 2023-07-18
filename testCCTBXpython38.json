@@ -4,7 +4,7 @@
     "language": "python",
     "description": "Bash script to test new installation of cctbx with Python3.7 in a conda env.",
     "tags": [
-    "pymol","testCCTBXpython38","conda","install"
+    "python","testCCTBXpython38","conda","install"
     ],
     "code": [
       "#! /bin/sh",

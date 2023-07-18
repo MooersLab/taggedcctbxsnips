@@ -4,7 +4,7 @@
     "language": "python",
     "description": "Extract crystal symmetry from mtz file.",
     "tags": [
-    "pymol","extractCrystalSymmetry","iotbx","extra crystal symmetry"
+    "python","extractCrystalSymmetry","iotbx","extra crystal symmetry"
     ],
     "code": [
       "from __future__ import absolute_import, division, print_function",
@@ -17,7 +17,7 @@
       "  return mtz_object.crystals()[0].crystal_symmetry()",
       "  ",
       " extract_from(file_name='3nd4.mtz')",
-      " $0"
+      " "
     ]
   },
   "schema_name": "code-snippet"

@@ -4,13 +4,12 @@
     "language": "python",
     "description": "Fetch fasta file from RCSB.",
     "tags": [
-    "pymol","fetchFASTA","iobtbx","fetch mtz"
+    "python","fetchFASTA","iobtbx","fetch mtz"
     ],
     "code": [
       "from iotbx.pdb.fetch import get_pdb",
       "import sys",
-      "get_pdb(id='3nd4',data_type='pdb', mirror='rcsb', format='pdb', log=sys.stdout)",
-      "$0"
+      "get_pdb(id='3nd4',data_type='pdb', mirror='rcsb', format='pdb', log=sys.stdout)"
     ]
   },
   "schema_name": "code-snippet"

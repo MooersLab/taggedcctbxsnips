@@ -4,7 +4,7 @@
     "language": "python",
     "description": "Build miller indices given unit cell and resolution limit.",
     "tags": [
-    "pymol","computeAllMillerIndicesUnitCell","iotbx","extra crystal symmetry"
+    "python","computeAllMillerIndicesUnitCell","iotbx","extra crystal symmetry"
     ],
     "code": [
       "from cctbx import crystal",
@@ -18,8 +18,7 @@
       "    d_min=1.4)",
       "msu = ms.map_to_asu()",
       "[print(hkl) for hkl in msu.indices()]",
-      "print(msu.show_comprehensive_summary())",
-      "$0"
+      "print(msu.show_comprehensive_summary())"
     ]
   },
   "schema_name": "code-snippet"

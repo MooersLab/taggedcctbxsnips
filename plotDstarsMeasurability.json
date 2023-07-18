@@ -4,7 +4,7 @@
     "language": "python",
     "description": "Generate the list of dstars and measurability as lists for plotting by matplotlib.",
     "tags": [
-    "pymol","plotDstarsMeasurability","iotbx","extra crystal symmetry"
+    "python","plotDstarsMeasurability","iotbx","extra crystal symmetry"
     ],
     "code": [
       "from iotbx.reflection_file_reader import any_reflection_file",
@@ -43,8 +43,7 @@
       "plt.yticks(fontsize=12)",
       "ax.grid(False)",
       "plt.savefig('3hz7measureability.pdf',bbox_inches='tight')",
-      "plt.show()",
-      "$0"
+      "plt.show()"
     ]
   },
   "schema_name": "code-snippet"

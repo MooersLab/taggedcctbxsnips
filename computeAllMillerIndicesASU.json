@@ -4,7 +4,7 @@
     "language": "python",
     "description": "Compute all possible Miller indices in the ASU.",
     "tags": [
-    "pymol","computeAllMillerIndicesASU","iotbx","extra crystal symmetry"
+    "python","computeAllMillerIndicesASU","iotbx","extra crystal symmetry"
     ],
     "code": [
       "from cctbx import miller",
@@ -24,8 +24,7 @@
       "# map the reflections to the asu and print",
       "  ",
       "msu = ms.map_to_asu()",
-      "[print(hkl2) for hkl2 in msu.indices()]",
-      "$0"
+      "[print(hkl2) for hkl2 in msu.indices()]"
     ]
   },
   "schema_name": "code-snippet"

@@ -4,7 +4,7 @@
     "language": "python",
     "description": "Fix permission on MacOS SDK. Adjust the version number of the sdk as needed.",
     "tags": [
-    "pymol","fixPermissionsOnMacSDK","command line tools"
+    "python","fixPermissionsOnMacSDK","command line tools"
     ],
     "code": [
       "cd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/",

@@ -4,7 +4,7 @@
     "language": "python",
     "description": "Read in mtz and pdb file and write map coefficients to a separate mtz file.",
     "tags": [
-    "pymol","makeMaps","iobtbx","fetch mtz"
+    "python","makeMaps","iobtbx","fetch mtz"
     ],
     "code": [
       "from mmtbx.maps.utils import create_map_from_pdb_and_mtz",
@@ -18,8 +18,7 @@
       "          out=None,",
       "          llg_map=False,",
       "          remove_unknown_scatterering_type=True,",
-      "          assume_pdb_data=False)",
-      "$0"
+      "          assume_pdb_data=False)"
     ]
   },
   "schema_name": "code-snippet"

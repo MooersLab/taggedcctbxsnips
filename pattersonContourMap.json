@@ -4,7 +4,7 @@
     "language": "python",
     "description": "Read in a mtz file with iotbx.file_reader.",
     "tags": [
-    "pymol","pattersonContourMap","iotbx","extra crystal symmetry"
+    "python","pattersonContourMap","iotbx","extra crystal symmetry"
     ],
     "code": [
       "import numpy",
@@ -30,8 +30,7 @@
       "pyplot.contour(X, Z, arr[:,:,0],500, zorder=1, linestyles='solid')",
       "pyplot.gca().set_aspect('equal', adjustable='box')",
       "pyplot.savefig('patterson.png', dpi=600)",
-      "pyplot.show()",
-      "$0"
+      "pyplot.show()"
     ]
   },
   "schema_name": "code-snippet"

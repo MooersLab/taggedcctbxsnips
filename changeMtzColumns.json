@@ -4,7 +4,7 @@
     "language": "python",
     "description": "Read in mtz file and write out with fewer columns.",
     "tags": [
-    "pymol","changeMtzColumns","iotbx","extra crystal symmetry"
+    "python","changeMtzColumns","iotbx","extra crystal symmetry"
     ],
     "code": [
       "from iotbx.reflection_file_reader import any_reflection_file",
@@ -19,8 +19,7 @@
       "mtz_dataset = i_obs.as_mtz_dataset(column_root_label='I')",
       "mtz_dataset.add_miller_array(f_obs, column_root_label='F')",
       "mtz_dataset.add_miller_array(r_free_flags,column_root_label='FreeR_flag')",
-      "mtz_dataset.mtz_object().write('loxodata.mtz')",
-      "$0"
+      "mtz_dataset.mtz_object().write('loxodata.mtz')"
     ]
   },
   "schema_name": "code-snippet"

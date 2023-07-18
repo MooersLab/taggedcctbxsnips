@@ -4,7 +4,7 @@
     "language": "python",
     "description": "Command to install gemmi (https://github.com/project-gemmi/gemmi). Documentation is located here (https://gemmi.readthedocs.io/en/latest/install.html).",
     "tags": [
-    "pymol","gemmiInstall","conda","install"
+    "python","gemmiInstall","conda","install"
     ],
     "code": [
       "# Install from PyPi",

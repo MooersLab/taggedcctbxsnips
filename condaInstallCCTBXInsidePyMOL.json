@@ -4,7 +4,7 @@
     "language": "python",
     "description": "Install cctbx inside PyMOL. This protocol worked on a Mac OS.",
     "tags": [
-    "pymol","condaInstallCCTBXInsidePyMOL","conda","install"
+    "python","condaInstallCCTBXInsidePyMOL","conda","install"
     ],
     "code": [
       "# At the PyMOL prompt in the PyMOL GUI paste the following:",
@@ -25,8 +25,7 @@
       "git clone https://github.com/MooersLab/juptyerlabpymolcctbxplus.git cctbx+",
       "git clone https://github.com/MooersLab/juptyerlabpymolpysnips.git pymol",
       "git clone https://github.com/MooersLab/juptyerlabpymolpysnipsplus.git pymol+",
-      "/Applications/PyMOL.app/Contents/bin/ipython kernel install --name pymol37 --user",
-      "$0"
+      "/Applications/PyMOL.app/Contents/bin/ipython kernel install --name pymol37 --user"
     ]
   },
   "schema_name": "code-snippet"

@@ -4,7 +4,7 @@
     "language": "python",
     "description": "Read in a phenix.refine mtz file. It plots the work and free R-factors by resolution bin.",
     "tags": [
-    "pymol","plotRfactorResolutionBin","iotbx","extra crystal symmetry"
+    "python","plotRfactorResolutionBin","iotbx","extra crystal symmetry"
     ],
     "code": [
       "#!/usr/bin/env python",
@@ -142,8 +142,7 @@
       "",
       "",
       "if (__name__ == '__main__'):",
-      "  run(input_mtz='28molrepEdited_5_refine_001.mtz')",
-      "$0"
+      "  run(input_mtz='28molrepEdited_5_refine_001.mtz')"
     ]
   },
   "schema_name": "code-snippet"
